@@ -10,7 +10,7 @@
         "array-bracket-newline": "error",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
-        "array-element-newline": "error",
+        "array-element-newline": ["error", { "multiline": false }],
         "arrow-body-style": "error",
         "arrow-parens": "error",
         "arrow-spacing": [
@@ -39,7 +39,7 @@
         "consistent-this": "error",
         "curly": "error",
         "default-case": "error",
-        "dot-location": "error",
+        "dot-location": ["error", "property"],
         "dot-notation": "error",
         "eol-last": [
             "error",
@@ -224,7 +224,7 @@
         "space-infix-ops": "error",
         "space-unary-ops": "error",
         "spaced-comment": "error",
-        "strict": ["error", "function"],
+        "strict": ["off", "global"],
         "switch-colon-spacing": "error",
         "symbol-description": "error",
         "template-curly-spacing": "error",
